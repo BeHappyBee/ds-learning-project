@@ -1,0 +1,40 @@
+{
+  "model_name": "Random Forest Classifier with Calibration",
+  "params": {
+    "n_estimators": 170,
+    "max_depth": 20,
+    "min_samples_split": 3,
+    "min_samples_leaf": 6
+  },
+  "metrics_test": {
+    "ROC-AUC": 0.9645,
+    "Approval Rate": "86.43%",
+    "Default Rate": "0.15%",
+    "Missed Defaults Rate": "2.97%"
+  },
+  "features": [
+    "score_date",
+    "MCC_5300",
+    "MCC_5814",
+    "MCC_5812",
+    "MCC_5411",
+    "MCC_3990",
+    "MCC_5722",
+    "MCC_4900",
+    "MCC_другое",
+    "возраст",
+    "семейное_положение",
+    "наличие_иждивенцев",
+    "дата_регистрации",
+    "доход",
+    "сумма_кредита",
+    "наличие_ипотеки",
+    "кредитный_рейтинг",
+    "учетная_ставка",
+    "уровень_безработицы",
+    "инфляция",
+    "MCC_total",
+    "MCC_3_month_mean",
+    "year"
+  ]
+}
